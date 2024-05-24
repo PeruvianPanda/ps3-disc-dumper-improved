@@ -1,3 +1,11 @@
+PS3 Disc Dumper Improved
+========================
+
+PS3 disc dumper is almost a really cool little tool, unfortunately the worms in the dev's brain make them think they need to proselytize their devotion to UAC. All this fork does is remove this stupid check, I literally commented out a single line of code.
+To be clear this utility works just fine running as admin and does not need UAC enabled, the only reason for this check is one person's brain damaged zealotry.
+I only built windows cause that's what I'm using, if anyone cares I might build the other platforms but maybe not, who knows.
+
+I'll leave the original readme here:
 PS3 Disc Dumper
 ===============
 This is a small utility to make decrypted copies of the PS3 game discs, suitable for use in emulators.
