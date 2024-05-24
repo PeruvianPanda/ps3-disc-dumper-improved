@@ -15,7 +15,7 @@ public static class SecurityEx
             if (principal.IsInRole(WindowsBuiltInRole.Administrator)
                 && !args.Any(p => p.Equals("/IUnderstandThatRunningSoftwareAsAdministratorIsDangerousAndNotRecommendedForAnyone")))
             {
-                return false;
+                //return false;
             }
         }
         return true;
